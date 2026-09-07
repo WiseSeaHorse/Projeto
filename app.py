@@ -1,17 +1,9 @@
-# ============================================
-# app.py - Dashboard Streamlit para Precificador Binomial
-# Projeto Quant Researcher - Roda 100% na nuvem (Streamlit Cloud)
-# ============================================
-
 import streamlit as st
 import math
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
-# ------------------------------------------------------------
-# 1. CLASSE DO PRECIFICADOR (Coração do projeto)
-# ------------------------------------------------------------
 class BinomialTreePricer:
     """
     Precificador de Opções via Árvore Binomial (Modelo de Cox-Ross-Rubinstein).
