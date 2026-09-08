@@ -93,9 +93,6 @@ class BinomialTreePricer:
         ax.grid(True, alpha=0.3)
         return fig
 
-# ------------------------------------------------------------
-# 2. INTERFACE DO STREAMLIT (Dashboard)
-# ------------------------------------------------------------
 st.set_page_config(
     page_title="Precificador de Opções - Árvore Binomial",
     page_icon="📈",
